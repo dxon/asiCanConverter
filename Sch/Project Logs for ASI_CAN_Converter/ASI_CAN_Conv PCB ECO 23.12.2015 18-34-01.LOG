@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetDD4_10 Pin=R26-2
+Added Component: Designator=X4(8EDGVC-3.5-03P)
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=+3.3V Pin=R26-2
+Added Pin To Net: NetName=NetDD4_10 Pin=R26-2
+Added Pin To Net: NetName=+24V_SAFE Pin=X4-1
+Added Pin To Net: NetName=NetX4_2 Pin=X4-2
+Added Pin To Net: NetName=NetX4_2 Pin=X4-3
+Added Member To Class: ClassName=Main Member=Component R26 (R28) *
+Added Member To Class: ClassName=Main Member=Component X4 15EDGVC-3.5-03P
+Added Member To Class: ClassName=CAN_ASI Member=Component X8 TJ3-4P4C

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [ASI_CAN_Conv.PcbDoc]
+   Generated File[ASI_CAN_Conv-Plated.TXT]
+   Generated File[ASI_CAN_Conv-NonPlated.TXT]
+   Generated File[ASI_CAN_Conv.LDP]
+   Generated File[ASI_CAN_Conv.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:54:00 On 15.09.2016

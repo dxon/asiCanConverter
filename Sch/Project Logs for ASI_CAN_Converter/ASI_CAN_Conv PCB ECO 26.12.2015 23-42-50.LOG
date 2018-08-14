@@ -1,0 +1,10 @@
+Change Component Comment : Designator=R14 Old Comment= New Comment=*
+Added Pin To Net: NetName=NetDD4_7 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetDD5_7 Pin=R28-1
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=+3.3V Pin=R28-2
+Added Pin To Net: NetName=NetR18_1 Pin=U1-85
+Added Pin To Net: NetName=NetR19_1 Pin=U1-86
+Added Pin To Net: NetName=NetR20_1 Pin=U1-87
+Added Pin To Net: NetName=NetR21_1 Pin=U1-88

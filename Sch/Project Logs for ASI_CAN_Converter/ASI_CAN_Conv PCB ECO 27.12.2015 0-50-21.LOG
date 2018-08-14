@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetC26_1 Pin=R26-2
+Removed Pin From Net: NetName=GND Pin=XU2-1
+Removed Pin From Net: NetName=NetFA1_1 Pin=XU2-2
+Added Component: Designator=R16(0805)
+Added Component: Designator=XU2(MF-2MA)
+Added Pin To Net: NetName=NetDD4_7 Pin=R16-1
+Added Pin To Net: NetName=NetC26_1 Pin=R16-2
+Added Pin To Net: NetName=GND Pin=XU2-1
+Added Pin To Net: NetName=NetFA1_1 Pin=XU2-2
+Added Member To Class: ClassName=CAN_ASI Member=Component R16 *
+Added Member To Class: ClassName=CAN_ASI Member=Component R28 *
+Added Member To Class: ClassName=Main Member=Component XU2 MF-2MA

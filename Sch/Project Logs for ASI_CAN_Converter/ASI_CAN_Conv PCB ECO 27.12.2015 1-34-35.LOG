@@ -1,0 +1,19 @@
+Change Physical Footprint: Designator=C6.1 Old Footprint=CAP_TYPE_A New Footprint=CAP_TYPE_A
+Change Physical Footprint: Designator=C12 Old Footprint=CAP_TYPE_A New Footprint=CAP_TYPE_A
+Change Physical Footprint: Designator=C18 Old Footprint=CAP_TYPE_A New Footprint=CAP_TYPE_A
+Change Physical Footprint: Designator=C24 Old Footprint=CAP_TYPE_A New Footprint=CAP_TYPE_A
+Change Physical Footprint: Designator=DD1 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=DD2 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=DD4 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=DD5 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=SA3 Old Footprint=SWD 1-4 New Footprint=SWD 1-4
+Change Physical Footprint: Designator=VD1 Old Footprint=SMC New Footprint=SMC
+Change Physical Footprint: Designator=VD3 Old Footprint=SMC New Footprint=SMC
+Change Physical Footprint: Designator=VD7 Old Footprint=LED3216 New Footprint=LED3216
+Change Physical Footprint: Designator=VD9 Old Footprint=LED3216 New Footprint=LED3216
+Change Physical Footprint: Designator=X1 Old Footprint=PLD-4 New Footprint=PLD-4
+Change Physical Footprint: Designator=X4 Old Footprint=15EDGVC-2.5-03P New Footprint=15EDGVC-2.5-03P
+Change Physical Footprint: Designator=X5 Old Footprint=15EDGVC-2.5-03P New Footprint=15EDGVC-2.5-03P
+Change Physical Footprint: Designator=X6 Old Footprint=15EDGVC-2.5-03P New Footprint=15EDGVC-2.5-03P
+Change Physical Footprint: Designator=X7 Old Footprint=15EDGVC-2.5-03P New Footprint=15EDGVC-2.5-03P
+Change Physical Footprint: Designator=XJ1 Old Footprint=BH2-6 New Footprint=BH2-6

@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=NRST Pin=R15-1
+Removed Pin From Net: NetName=+3.3V Pin=R15-2
+Removed Pin From Net: NetName=GND Pin=XU2-1
+Removed Pin From Net: NetName=NetFA1_1 Pin=XU2-2
+Removed Member From Class: ClassName=Main Member=R26
+Added Component: Designator=R15(0805)
+Added Component: Designator=XU2(MF-2MA)
+Added Pin To Net: NetName=NRST Pin=R15-1
+Added Pin To Net: NetName=+3.3V Pin=R15-2
+Added Pin To Net: NetName=GND Pin=XU2-1
+Added Pin To Net: NetName=NetFA1_1 Pin=XU2-2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR11_1 Pin=U1-1
+Added Net: Name=NetR11_1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=U1-2
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR13_2 Pin=U1-3
+Added Net: Name=NetR13_2
+Added Member To Class: ClassName=Main Member=Component R15 *
+Added Member To Class: ClassName=CAN_ASI Member=Component R26 *
+Added Member To Class: ClassName=Main Member=Component XU2 MF-2MA

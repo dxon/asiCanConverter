@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=NetR26_1 Pin=R26-1
+Removed Pin From Net: NetName=NetR28_1 Pin=R28-1
+Removed Member From Class: ClassName=POWER_SUPPLY Member=DA1
+Removed Member From Class: ClassName=Digital_In_Common Member=DA2
+Removed Member From Class: ClassName=Main Member=R4
+Removed Member From Class: ClassName=Digital_In_Common Member=R8
+Removed Member From Class: ClassName=Digital_In_Common Member=R9
+Removed Member From Class: ClassName=Digital_In_Common Member=R10
+Removed Member From Class: ClassName=CAN_ASI Member=R12
+Removed Member From Class: ClassName=CAN_ASI Member=R15
+Change Component Footprint: Designator=X4 Old Footprint=8EDGVC-2.5-04P New Footprint=15EDGVC-2.5-03P
+Change Component Footprint: Designator=X5 Old Footprint=8EDGVC-2.5-04P New Footprint=15EDGVC-2.5-03P
+Change Component Footprint: Designator=X6 Old Footprint=8EDGVC-2.5-04P New Footprint=15EDGVC-2.5-03P
+Change Component Footprint: Designator=X7 Old Footprint=8EDGVC-2.5-04P New Footprint=15EDGVC-2.5-03P
+Added Pin To Net: NetName=NetDD4_7 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetDD5_7 Pin=R28-1
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=+3.3V Pin=R28-2
+Added Member To Class: ClassName=POWER_SUPPLY Member=Component DA3 MC33275ST-3.3T3G
+Added Member To Class: ClassName=Digital_In_Common Member=Component DA4 HCPL0661
+Added Member To Class: ClassName=CAN_ASI Member=Component DD4 PCA82C250T/N4
+Added Member To Class: ClassName=Main Member=Component R18 *
+Added Member To Class: ClassName=Main Member=Component R21 *
+Added Member To Class: ClassName=Digital_In_Common Member=Component R22 *
+Added Member To Class: ClassName=Digital_In_Common Member=Component R23 *
+Added Member To Class: ClassName=Digital_In_Common Member=Component R24 *
+Added Member To Class: ClassName=CAN_ASI Member=Component R26 *
+Added Member To Class: ClassName=CAN_ASI Member=Component R27 *

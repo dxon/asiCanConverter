@@ -1,0 +1,15 @@
+Replace Part C1 CC0805 in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with CC0805 from DX_test_lib2.SchLib
+Replace Part C2 CC0805 in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with CC0805 from DX_test_lib2.SchLib
+Replace Part C3 CAP_RADIAL in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with CAP_RADIAL from DX_test_lib2.SchLib
+Replace Part C4 TANTAL_A in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with TANTAL_A from Capacitors.IntLib
+Replace Part C5 CC0805 in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with CC0805 from DX_test_lib2.SchLib
+Replace Part C6 CC0805 in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with CC0805 from DX_test_lib2.SchLib
+Replace Part DA1 L78L05ACU in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with L78L05ACU from DX_test_lib2.SchLib
+Replace Part DD1 PCA82C250T in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with PCA82C250T from Micro_Digital.IntLib
+Replace Part DD2 ADUM1201 in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with ADUM1201 from Micro_Digital.IntLib
+Replace Part R1 RC0805JR in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with RC0805JR from DX_test_lib2.SchLib
+Replace Part R2 RC0805JR in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with RC0805JR from DX_test_lib2.SchLib
+Replace Part R3 RC0805JR in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with RC0805JR from DX_test_lib2.SchLib
+Replace Part X1 PLD-4 in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with PLD-4 from Connectors.IntLib
+Replace Part X2 TJ3-4P4C in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with TJ3-4P4C from Connectors_TJ.IntLib
+Replace Part X3 TJ3-4P4C in D:\#ASI_CAN_Converter\Sch\CAN.SchDoc with TJ3-4P4C from Connectors_TJ.IntLib

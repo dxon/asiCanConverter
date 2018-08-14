@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=GND Pin=XU2-1
+Removed Pin From Net: NetName=NetFA1_1 Pin=XU2-2
+Change Component Comment : Designator=C1 Old Comment=* New Comment=0,01
+Change Component Comment : Designator=C5.1 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C6 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C7 Old Comment=* New Comment=0,01
+Change Component Comment : Designator=C16 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C18 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C19 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C20 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C21 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C22 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C24 Old Comment=* New Comment=0,1
+Change Component Comment : Designator=C25 Old Comment=* New Comment=0,01
+Change Component Comment : Designator=C13 Old Comment=* New Comment=0,33
+Change Component Comment : Designator=C9 Old Comment=* New Comment=0,47
+Change Component Comment : Designator=C11 Old Comment=* New Comment=0,47
+Change Component Comment : Designator=R20 Old Comment=* New Comment=1ך1
+Change Component Comment : Designator=R21 Old Comment=* New Comment=1ך1
+Change Component Comment : Designator=R22 Old Comment=* New Comment=1ך1
+Change Component Comment : Designator=R5 Old Comment=* New Comment=1ך2
+Change Component Comment : Designator=R10 Old Comment=* New Comment=1ך
+Change Component Comment : Designator=C27 Old Comment=* New Comment=2,2לךװ x 10 ֲ
+Change Component Comment : Designator=C28 Old Comment=* New Comment=2,2לךװ x 10 ֲ
+Change Component Comment : Designator=R29 Old Comment=* New Comment=2ך4
+Change Component Comment : Designator=R4 Old Comment=* New Comment=4.7k
+Change Component Comment : Designator=R3 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=R14 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=R15 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=R23 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=R24 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=R25 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=R26 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=R32 Old Comment=* New Comment=10ך
+Change Component Comment : Designator=C6.1 Old Comment=* New Comment=10לךװ x 6,3 ֲ
+Change Component Comment : Designator=C12 Old Comment=* New Comment=10לךװ x 6,3 ֲ
+Change Component Comment : Designator=C17 Old Comment=* New Comment=10לךװ x 6,3 ֲ
+Change Component Comment : Designator=C23 Old Comment=* New Comment=10לךװ x 6,3 ֲ
+Change Component Comment : Designator=C2 Old Comment=* New Comment=15
+Change Component Comment : Designator=C26 Old Comment=* New Comment=15
+Change Component Comment : Designator=C14 Old Comment=* New Comment=27
+Change Component Comment : Designator=C15 Old Comment=* New Comment=27
+Change Component Comment : Designator=L2 Old Comment=* New Comment=33לךֳם
+Change Component Comment : Designator=L1 Old Comment=* New Comment=47לךֳם
+Change Component Comment : Designator=R1 Old Comment=* New Comment=60,4
+Change Component Comment : Designator=R2 Old Comment=* New Comment=60,4
+Change Component Comment : Designator=R30 Old Comment=* New Comment=60,4
+Change Component Comment : Designator=R31 Old Comment=* New Comment=60,4
+Change Component Comment : Designator=R6 Old Comment=* New Comment=68
+Change Component Comment : Designator=R7 Old Comment=* New Comment=68
+Change Component Comment : Designator=R8 Old Comment=* New Comment=68
+Change Component Comment : Designator=R9 Old Comment=* New Comment=68
+Change Component Comment : Designator=R13 Old Comment=* New Comment=68
+Change Component Comment : Designator=R16 Old Comment=* New Comment=68
+Change Component Comment : Designator=R17 Old Comment=* New Comment=68
+Change Component Comment : Designator=R27 Old Comment=* New Comment=68
+Change Component Comment : Designator=R11 Old Comment=* New Comment=120
+Change Component Comment : Designator=R12 Old Comment=* New Comment=120
+Change Component Comment : Designator=R18 Old Comment=* New Comment=120
+Change Component Comment : Designator=R19 Old Comment=* New Comment=120
+Change Component Comment : Designator=R28 Old Comment=* New Comment=130
+Change Component Comment : Designator=C8 Old Comment=* New Comment=220לךװ x 50 ֲ
+Change Component Comment : Designator=C10 Old Comment=* New Comment=1000לךװ x 6,3 ֲ
+Change Component Comment : Designator=X5 Old Comment= New Comment=15EDGVC-2.5-03P
+Change Component Comment : Designator=FA1 Old Comment=3,7 ְ New Comment=2ְ
+Added Component: Designator=XU2(MF-2MA)
+Added Pin To Net: NetName=GND Pin=XU2-1
+Added Pin To Net: NetName=NetFA1_1 Pin=XU2-2
+Added Member To Class: ClassName=Main Member=Component XU2 MF-2MA

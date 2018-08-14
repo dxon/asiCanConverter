@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=GND Pin=R19-2
+Removed Pin From Net: NetName=GND Pin=R20-2
+Removed Pin From Net: NetName=+24V_SAFE Pin=R22-2
+Removed Pin From Net: NetName=NetR20_1 Pin=U1-73
+Removed Pin From Net: NetName=NetDA4_2 Pin=X4-1
+Removed Pin From Net: NetName=GND Pin=X4-3
+Removed Pin From Net: NetName=GND Pin=XU2-1
+Removed Pin From Net: NetName=NetFA1_1 Pin=XU2-2
+Removed Member From Class: ClassName=Main Member=R28
+Change Component Comment : Designator=FA1 Old Comment= New Comment=3,7 À
+Change Component Comment : Designator=X4 Old Comment= New Comment=15EDGVC-2.5-03P
+Change Component Comment : Designator=X5 Old Comment= New Comment=15EDGVC-2.5-03P
+Change Component Comment : Designator=X6 Old Comment= New Comment=15EDGVC-2.5-03P
+Change Component Comment : Designator=X7 Old Comment= New Comment=15EDGVC-2.5-03P
+Change Component Comment : Designator=C9 Old Comment= New Comment=*
+Change Component Comment : Designator=VD16 Old Comment= New Comment=KP-3216MGC
+Change Component Designator: OldDesignator=R21 NewDesignator=R19
+Change Component Designator: OldDesignator=R23 NewDesignator=R21
+Change Component Designator: OldDesignator=R24 NewDesignator=R22
+Change Component Designator: OldDesignator=R25 NewDesignator=R23
+Change Component Designator: OldDesignator=R26 NewDesignator=R24
+Change Component Designator: OldDesignator=R27 NewDesignator=R25
+Change Component Designator: OldDesignator=R28 NewDesignator=R26
+Change Component Designator: OldDesignator=R29 NewDesignator=R27
+Change Component Designator: OldDesignator=R30 NewDesignator=R28
+Change Component Designator: OldDesignator=R31 NewDesignator=R29
+Change Component Designator: OldDesignator=R32 NewDesignator=R30
+Change Component Designator: OldDesignator=R33 NewDesignator=R31
+Change Component Designator: OldDesignator=R34 NewDesignator=R32
+Added Component: Designator=C27(CAP_TYPE_A)
+Added Component: Designator=C28(CAP_TYPE_A)
+Added Component: Designator=XU2(MF-2MA)
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=+24V_SAFE Pin=R20-2
+Added Pin To Net: NetName=NetR20_1 Pin=VD13-1
+Added Pin To Net: NetName=GND Pin=X4-1
+Added Pin To Net: NetName=NetDA4_2 Pin=X4-3
+Added Pin To Net: NetName=GND Pin=XU2-1
+Added Pin To Net: NetName=NetFA1_1 Pin=XU2-2
+Change Net Name : Old Net Name=NetR23_1 New Net Name=NetR21_1
+Change Net Name : Old Net Name=NetR24_1 New Net Name=NetR22_1
+Change Net Name : Old Net Name=NetR25_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=NetR26_1 New Net Name=NetR24_1
+Change Net Name : Old Net Name=NetR27_1 New Net Name=NetR25_1
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR26_1
+Change Net Name : Old Net Name=NetR29_2 New Net Name=NetR27_2
+Added Pin To Net: NetName=NetC27_1 Pin=C27-1
+Added Pin To Net: NetName=NetC27_1 Pin=U1-49
+Added Net: Name=NetC27_1
+Added Pin To Net: NetName=NetC28_1 Pin=C28-1
+Added Pin To Net: NetName=NetC28_1 Pin=U1-73
+Added Net: Name=NetC28_1
+Added Member To Class: ClassName=Main Member=Component C27 *
+Added Member To Class: ClassName=Main Member=Component C28 *
+Added Member To Class: ClassName=Main Member=Component XU2 MF-2MA

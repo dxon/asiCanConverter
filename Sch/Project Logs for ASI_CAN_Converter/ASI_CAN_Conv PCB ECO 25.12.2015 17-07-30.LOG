@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetR26_1 Pin=R26-1
+Removed Pin From Net: NetName=NetR28_1 Pin=R28-1
+Removed Member From Class: ClassName=POWER_SUPPLY Member=DA1
+Removed Member From Class: ClassName=Digital_In_Common Member=DA2
+Removed Member From Class: ClassName=Digital_In_Common Member=R8
+Removed Member From Class: ClassName=Digital_In_Common Member=R9
+Removed Member From Class: ClassName=Digital_In_Common Member=R10
+Removed Member From Class: ClassName=CAN_ASI Member=R12
+Added Pin To Net: NetName=NetDD4_7 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetDD5_7 Pin=R28-1
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=+3.3V Pin=R28-2
+Added Pin To Net: NetName=TMS Pin=U1-72
+Added Pin To Net: NetName=TCK Pin=XJ1-5

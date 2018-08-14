@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ASI_CAN_Conv.PcbDoc   15.09.2016  11:53:59
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : ASI_CAN_Conv-Plated.TXT
+ASCII Non-Plated RoundHoles File : ASI_CAN_Conv-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.7mm (28mil)                                             Round             49        PTH        427.19mm (16.82inch)
+T2      0.9mm (35mil)                                             Round             27        PTH        160.17mm (6.31inch)
+T3      1.1mm (43mil)                                             Round             33        PTH        259.47mm (10.22inch)
+T4      1.3mm (51mil)                                             Round             20        PTH        166.87mm (6.57inch)
+T5      1.6mm (63mil)                                             Round             4         PTH        20.25mm (0.80inch)
+T6      3.2mm (126mil)                                            Round             8         PTH        243.39mm (9.58inch)
+T7      3.2mm (126mil)                                            Round             6         NPTH       47.85mm (1.88inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              147
+
+Total Processing Time (hh:mm:ss) : 00:00:00

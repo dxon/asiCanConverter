@@ -1,0 +1,291 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.2.14835/W32 for ARM                13/Apr/2018  18:36:37
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Exe\BootLoader_STM32F.out
+#    Map file     =  
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\List\BootLoader_STM32F.map
+#    Command line =  
+#        -f C:\Users\User\AppData\Local\Temp\EW7033.tmp
+#        (D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\Bootloader.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\misc.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\startupBoot_md.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\stm32f4xx_can.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\stm32f4xx_flash.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\stm32f4xx_gpio.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\stm32f4xx_it.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\stm32f4xx_iwdg.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\stm32f4xx_rcc.o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj\system_stm32f4xx.o
+#        --redirect _Printf=_PrintfTiny --redirect _Scanf=_ScanfSmallNoMb -o
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Exe\BootLoader_STM32F.out
+#        --map
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\List\BootLoader_STM32F.map
+#        --config
+#        D:\#ASI_CAN_Converter\Soft\BootLoader\config\stm32f437vit6_flash.icf
+#        --entry __iar_program_start --inline --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x08000cff] { ro };
+define block CSTACK with size = 1536, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x20004fff] {
+          rw, block CSTACK, block HEAP };
+"A2":  place at start of [from 0x20000000 to 0x20004fff] { rw section TARGET };
+"A3":  place at 0x08000d00 { ro section flash_SerialNumber };
+"A4":  place at 0x08000d04 { ro section flash_HardVersion };
+"A5":  place at 0x08000d08 { ro section flash_SoftVersion };
+"A6":  place at 0x08000d0c { ro section flash_Settings };
+"A7":  place at 0x08000d28 { ro section SECTION_SERIAL };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .checksum  in "A1"
+
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A0":                                        0x40
+  .intvec             ro code  0x08000000    0x40  startupBoot_md.o [1]
+                             - 0x08000040    0x40
+
+"P1":                                       0xa88
+  .text               ro code  0x08000040   0x75c  Bootloader.o [1]
+  .text               ro code  0x0800079c   0x10c  system_stm32f4xx.o [1]
+  .text               ro code  0x080008a8    0x34  stm32f4xx_iwdg.o [1]
+  .text               ro code  0x080008dc    0xd6  stm32f4xx_flash.o [1]
+  .text               ro code  0x080009b2    0x2c  copy_init3.o [5]
+  .text               ro code  0x080009e0    0x28  data_init.o [5]
+  .text               ro code  0x08000a08    0x22  fpinit_M.o [4]
+  .iar.init_table     const    0x08000a2c    0x14  - Linker created -
+  .text               ro code  0x08000a40    0x1e  cmain.o [5]
+  .text               ro code  0x08000a5e     0x4  exit.o [3]
+  .text               ro code  0x08000a64     0xa  cexit.o [5]
+  .text               ro code  0x08000a70     0xc  XXexit.o [5]
+  .text               ro code  0x08000a7c    0x12  stm32f4xx_it.o [1]
+  .text               ro code  0x08000a8e     0xc  cstartup_M.o [5]
+  Initializer bytes   const    0x08000a9c     0x8  <for P2-1>
+  .text               ro code  0x08000aa4     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000aa8     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000aac     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000ab0     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000ab4     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000ab8     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000abc     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000ac0     0x4  startupBoot_md.o [1]
+  .text               ro code  0x08000ac4     0x4  startupBoot_md.o [1]
+  .rodata             const    0x08000ac8     0x0  copy_init3.o [5]
+                             - 0x08000ac8   0xa88
+
+"A3":                                         0x4
+  flash_SerialNumber  const    0x08000d00     0x4  Bootloader.o [1]
+                             - 0x08000d04     0x4
+
+"A4":                                         0x4
+  flash_HardVersion   const    0x08000d04     0x4  Bootloader.o [1]
+                             - 0x08000d08     0x4
+
+"A5":                                         0x4
+  flash_SoftVersion   const    0x08000d08     0x4  Bootloader.o [1]
+                             - 0x08000d0c     0x4
+
+"A6":                                        0x1c
+  flash_Settings      const    0x08000d0c    0x1c  Bootloader.o [1]
+                             - 0x08000d28    0x1c
+
+"A7":                                        0x2c
+  SECTION_SERIAL      ro code  0x08000d28    0x2c  Bootloader.o [1]
+                             - 0x08000d54    0x2c
+
+"A2":                                         0xc
+  TARGET              uninit   0x20000000     0xc  Bootloader.o [1]
+                             - 0x2000000c     0xc
+
+"P2", part 1 of 2:                            0x8
+  P2-1                         0x2000000c     0x8  <Init block>
+    .data             inited   0x2000000c     0x8  Bootloader.o [1]
+                             - 0x20000014     0x8
+
+"P2", part 2 of 2:                         0x1f2c
+  .noinit             uninit   0x20000014  0x1828  Bootloader.o [1]
+  .noinit             uninit   0x2000183c   0x100  Bootloader.o [1]
+  .noinit             uninit   0x2000193c     0x2  Bootloader.o [1]
+  CSTACK                       0x20001940   0x600  <Block>
+    CSTACK            uninit   0x20001940   0x600  <Block tail>
+                             - 0x20001f40  0x1f2c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x8:
+          0x08000a9c   0x8
+    1 destination range, total size 0x8:
+          0x2000000c   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj: [1]
+    Bootloader.o          1 928       48    6 462
+    startupBoot_md.o        100
+    stm32f4xx_flash.o       214
+    stm32f4xx_it.o           18
+    stm32f4xx_iwdg.o         52
+    system_stm32f4xx.o      268
+    ---------------------------------------------
+    Total:                2 580       48    6 462
+
+command line: [2]
+    ---------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                    4
+    ---------------------------------------------
+    Total:                    4
+
+m7M_tls.a: [4]
+    fpinit_M.o               34
+    ---------------------------------------------
+    Total:                   34
+
+rt7M_tl.a: [5]
+    XXexit.o                 12
+    cexit.o                  10
+    cmain.o                  30
+    copy_init3.o             44
+    cstartup_M.o             12
+    data_init.o              40
+    ---------------------------------------------
+    Total:                  148
+
+    Gaps                      6        2
+    Linker created                    22    1 536
+-------------------------------------------------
+    Grand Total:          2 772       72    7 998
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08000a2c           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08000a40           --   Gb  - Linker created -
+?main                   0x08000a41          Code  Gb  cmain.o [5]
+Application             0x2000000c     0x4  Data  Gb  Bootloader.o [1]
+BusFault_Handler        0x08000a83     0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x20001940           --   Gb  - Linker created -
+CSTACK$$Limit           0x20001f40           --   Gb  - Linker created -
+Can_Box                 0x20000028  0x1400  Data  Gb  Bootloader.o [1]
+Can_Tx                  0x20000014    0x14  Data  Gb  Bootloader.o [1]
+DebugMon_Handler        0x08000a89     0x2  Code  Gb  stm32f4xx_it.o [1]
+FLASH_GetStatus         0x08000949    0x38  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_Lock              0x080008f5     0xe  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_ProgramHalfWord   0x08000903    0x26  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_Unlock            0x080008dd    0x18  Code  Gb  stm32f4xx_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08000995    0x1e  Code  Gb  stm32f4xx_flash.o [1]
+GetAddress              0x08000d35    0x12  Code  Gb  Bootloader.o [1]
+GetHardVersion          0x08000d2f     0x6  Code  Gb  Bootloader.o [1]
+GetSerialNum            0x08000d29     0x6  Code  Gb  Bootloader.o [1]
+HardFault_Handler       0x08000a7f     0x2  Code  Gb  stm32f4xx_it.o [1]
+IWDG_Enable             0x080008c5     0xa  Code  Gb  stm32f4xx_iwdg.o [1]
+IWDG_ReloadCounter      0x080008bb     0xa  Code  Gb  stm32f4xx_iwdg.o [1]
+IWDG_SetPrescaler       0x080008af     0x6  Code  Gb  stm32f4xx_iwdg.o [1]
+IWDG_SetReload          0x080008b5     0x6  Code  Gb  stm32f4xx_iwdg.o [1]
+IWDG_WriteAccessCmd     0x080008a9     0x6  Code  Gb  stm32f4xx_iwdg.o [1]
+Key                     0x20001828    0x10  Data  Gb  Bootloader.o [1]
+MemManage_Handler       0x08000a81     0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x08000a7d     0x2  Code  Gb  stm32f4xx_it.o [1]
+PendSV_Handler          0x08000a8b     0x2  Code  Gb  stm32f4xx_it.o [1]
+Region$$Table$$Base     0x08000a2c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08000a40           --   Gb  - Linker created -
+S                       0x2000183c   0x100  Data  Gb  Bootloader.o [1]
+SVC_Handler             0x08000a87     0x2  Code  Gb  stm32f4xx_it.o [1]
+SerialNumber            0x08000d00     0x4  Data  Gb  Bootloader.o [1]
+SysTick_Handler         0x08000a8d     0x2  Code  Gb  stm32f4xx_it.o [1]
+SystemInit              0x0800079d    0xea  Code  Gb  system_stm32f4xx.o [1]
+UsageFault_Handler      0x08000a85     0x2  Code  Gb  stm32f4xx_it.o [1]
+__cmain                 0x08000a41          Code  Gb  cmain.o [5]
+__exit                  0x08000a71          Code  Gb  XXexit.o [5]
+__iar_copy_init3        0x080009b3    0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x080009e1    0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x08000a09          Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x08000a8f          Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__vector_table          0x08000000          Data  Gb  startupBoot_md.o [1]
+_call_main              0x08000a4d          Code  Gb  cmain.o [5]
+_exit                   0x08000a65          Code  Gb  cexit.o [5]
+_main                   0x08000a5b          Code  Gb  cmain.o [5]
+bootFirmware            0x08000d08     0x4  Data  Gb  Bootloader.o [1]
+bootHardware            0x08000d04     0x4  Data  Gb  Bootloader.o [1]
+buffer                  0x20001428   0x400  Data  Gb  Bootloader.o [1]
+canReceive              0x08000135    0x50  Code  Gb  Bootloader.o [1]
+canTransmit             0x080000c1    0x74  Code  Gb  Bootloader.o [1]
+checkCrc32              0x08000071    0x50  Code  Gb  Bootloader.o [1]
+config                  0x20000010     0x4  Data  Gb  Bootloader.o [1]
+exit                    0x08000a5f     0x4  Code  Gb  exit.o [3]
+key_i                   0x2000193c     0x1  Data  Gb  Bootloader.o [1]
+key_j                   0x2000193d     0x1  Data  Gb  Bootloader.o [1]
+main                    0x08000185   0x538  Code  Gb  Bootloader.o [1]
+moduleAddress           0x20001838     0x4  Data  Gb  Bootloader.o [1]
+rc4_init                0x080006e1    0x36  Code  Gb  Bootloader.o [1]
+rc4_output              0x08000717    0x2a  Code  Gb  Bootloader.o [1]
+settings                0x08000d0c    0x1c  Data  Gb  Bootloader.o [1]
+slow_crc32              0x08000041    0x30  Code  Gb  Bootloader.o [1]
+target                  0x20000000     0xc  Data  Gb  Bootloader.o [1]
+
+
+[1] = D:\#ASI_CAN_Converter\Soft\BootLoader\Release_STM32F437VIT6\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+
+  2 772 bytes of readonly  code memory
+     72 bytes of readonly  data memory
+  7 998 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

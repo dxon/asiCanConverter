@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetDA4_2 Pin=X4-1
+Removed Pin From Net: NetName=GND Pin=XU2-1
+Removed Pin From Net: NetName=NetFA1_1 Pin=XU2-2
+Change Component Comment : Designator=FA1 Old Comment= New Comment=3,7 À
+Change Component Comment : Designator=X5 Old Comment= New Comment=15EDGVC-2.5-03P
+Change Component Comment : Designator=XU1 Old Comment= New Comment=MF-2MA
+Added Pin To Net: NetName=GND Pin=X4-1

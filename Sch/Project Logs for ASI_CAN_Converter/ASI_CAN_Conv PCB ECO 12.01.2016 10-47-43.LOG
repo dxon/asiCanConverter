@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=GND Pin=X4-1
+Removed Pin From Net: NetName=NetDA4_2 Pin=X4-3
+Removed Pin From Net: NetName=GND Pin=XU2-1
+Removed Pin From Net: NetName=NetFA1_1 Pin=XU2-2
+Removed Member From Class: ClassName=Digital_In_Common Member=R25
+Removed Member From Class: ClassName=CAN_ASI Member=R28
+Removed Member From Class: ClassName=CAN_ASI Member=R29
+Change Component Comment : Designator=X4 Old Comment= New Comment=15EDGVC-2.5-03P
+Change Component Comment : Designator=X5 Old Comment= New Comment=15EDGVC-2.5-03P
+Added Component: Designator=XU2(MF-2MA)
+Added Pin To Net: NetName=NetDA4_2 Pin=X4-1
+Added Pin To Net: NetName=GND Pin=XU2-1
+Added Pin To Net: NetName=NetFA1_1 Pin=XU2-2
+Added Member To Class: ClassName=Main Member=Component R19 *
+Added Member To Class: ClassName=Main Member=Component R26 *
+Added Member To Class: ClassName=Digital_In_Common Member=Component R27 *
+Added Member To Class: ClassName=CAN_ASI Member=Component R30 *
+Added Member To Class: ClassName=CAN_ASI Member=Component R31 *
+Added Member To Class: ClassName=Main Member=Component XU2 MF-2MA

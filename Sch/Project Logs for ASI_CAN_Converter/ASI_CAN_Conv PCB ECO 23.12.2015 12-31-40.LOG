@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=CAN Member=C14
+Removed Member From Class: ClassName=POWER_SUPPLY Member=VD6
+Added Member To Class: ClassName=CAN Member=Component C1 *
+Added Member To Class: ClassName=Main Member=Component R26 (R28) *
+Added Member To Class: ClassName=Main Member=Component R29 *
+Added Member To Class: ClassName=POWER_SUPPLY Member=Component VD1 VS-30BQ060TRPbf
